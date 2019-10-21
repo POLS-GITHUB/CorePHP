@@ -1,0 +1,97 @@
+
+ input[type='text'],input[type='password'],#add,#diary,#district{
+	      border-top:none;
+		  border-right:none;
+		  border-left:none;
+		  border-bottom:2px solid #0CF;
+		 -webkit-appearance:none;
+	     box-shadow:none;
+		 outline:none;
+	   }
+	  input[type='text']:focus,input[type='password']:focus{
+		    border-top:none;
+		   border-right:none;
+		   border-left:none;
+		   border-bottom:2px solid #0CF;
+		  -webkit-appearance:none;
+	       box-shadow:none;
+		   outline:none;
+		   box-shadow:0 1px 0 #0FF;
+		  -webkit-transition:box-shadow 0.6s;
+		  -moz-transition:box-shadow 0.6s;
+		  }  
+	#email{
+		 background-image:url(../images/email1.png);
+		 background-position:left;
+		 background-repeat:no-repeat;
+		 padding-left:36px;
+		}
+	#password,#repass {
+		 background-image:url(../images/pass1.png);
+		 background-position:left;
+		 background-repeat:no-repeat;
+		 padding-left:36px;
+		} 
+	#vcontact,#scontact{
+		 background-image:url(../images/phone1.png);
+		 background-position:left;
+		 background-repeat:no-repeat;
+		 padding-left:36px;
+		}
+	#add{
+		 background-image:url(../images/add1.png);
+		 background-position:top left;
+		 background-repeat:no-repeat;
+		 padding-left:36px;
+		}
+	#diary{
+		 background-image:url(../images/comment1.png);
+		 background-position:top left;
+		 background-repeat:no-repeat;
+		 padding-left:36px;
+		}		
+	#vname,#sname {
+		 background-image:url(../images/name1.png);
+		 background-position:top left;
+		 background-repeat:no-repeat;
+		 padding-left:36px;
+		
+		}
+	#pin{
+		 background-image:url(../images/pin1.png);
+		 background-position:top left;
+		 background-repeat:no-repeat;
+		 padding-left:36px;
+		
+		}		
+	 	
+	#district{
+		 background-image:url(../images/district1.png);
+		 background-repeat:no-repeat;
+		 padding-left:36px;
+		 -webkit-appearance:none;
+		 box-shadow:none;
+		}
+	#btn-1:hover{
+		box-shadow:4px 4px 4px #666666;
+		color:#FFF;
+		background:#0F0;
+		}
+		
+	#btn-2:hover{
+		box-shadow:4px 4px 4px #666666;
+		color:#FFF;
+		background:#F00;
+		}
+		
+	#btn-3:hover{
+		box-shadow:4px 4px 4px #666666;
+		color:#FFF;
+		background:#0FF;
+		}
+		
+	#btn-4:hover{
+		box-shadow:4px 4px 4px #666666;
+		color:#FFF;
+		background:#006;
+		}			

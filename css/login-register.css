@@ -1,0 +1,106 @@
+.login-form{
+	margin-top:12%;
+	}
+
+#username{
+	width:200px;
+	height:30px;
+	border-top-style:none;
+	border-left-style:none;
+	border-right-style:none;
+	border-bottom:2px solid #F33;
+	color:#096;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:18px;
+	background:url(../images/user-icon.png) no-repeat;
+	background-color:transparent;
+	padding-left:20%;
+	box-shadow:5px 5px 5px #666666;
+	}
+	#password{
+		width:200px;
+	    height:30px;
+	    border-top-style:none;
+	    border-left-style:none;
+	    border-right-style:none;
+	    border-bottom:2px solid #F33;
+	    color:#096;
+		letter-spacing:5px;
+	    font-size:18px;
+    	background:url(../images/password-icon.png) no-repeat;
+	    background-color:transparent;
+	    padding-left:20%;
+		box-shadow:5px 5px 5px #666666;
+		}
+		#username:focus, #password:focus{
+			
+			outline-style:none;
+            border-bottom:2px solid #F33;
+			}
+			#login-btn, #reset-btn, #submit, #reset-btn1{
+				
+				width:100px;
+				height:30px;
+				border-top-style:none;
+	            border-left-style:none;
+	            border-right-style:none;
+				border-bottom-style:none;
+				background:#F33;
+				color:#FFF;
+			/*	margin-left:2%;*/
+				box-shadow:5px 5px 5px #666666;
+				}
+				#login-btn:hover, #reset-btn:hover, #submit:hover, #reset-btn1:hover{
+					cursor:pointer;
+					}
+			    #login-btn:active, #reset-btn:active, #submit:active, #reset-btn1:active{
+					
+					outline-style:none;
+					background-color:#FFF;
+					color:#F33;
+				}
+				#register-link, #login-link{
+					margin-left:5%
+				}
+				#register-link:hover, #login-link:hover{
+					cursor:pointer;
+					color:#039;
+					text-decoration:underline;
+					
+					}
+					#firstname:focus, #lastname:focus, #email:focus, #address:focus, #mobile:focus, #create-username:focus, #create-password:focus, #confirm-password:focus, textarea:focus, #votername:focus, #fathername:focus, #dob:focus, #cardnumber:focus, #doi:focus, #country:focus{
+					 outline-color:#9FF;						
+						
+						}
+						#firstname, #lastname, #email, #address, #mobile, #create-username, #create-password, #confirm-password,textarea, #votername, #fathername, #dob, #cardnumber, #doi, #country{
+						width:250px;
+						height:40px;
+						color:#F33;
+						font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;	
+						box-shadow:6px 6px 6px #999;
+						border-bottom-style:2px dashed #333;
+						border-left-style:none;
+						border-right-style:none;
+						border-top-style:none;
+						}
+						#next-page:hover{
+							cursor:pointer;
+							color:#03C;
+							text-decoration:underline;
+							}
+							#voter{
+						        margin-left:35%;
+								margin-top:-33%;
+								}
+								#personal{
+								margin-left:60%;
+								margin-top:0%;
+	
+								}
+								.footer{
+									margin-top:20%;
+									margin-left:10%;
+									position:absolute;
+									}
+									
+ 

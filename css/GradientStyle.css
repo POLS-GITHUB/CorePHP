@@ -1,0 +1,8 @@
+#gradient
+{
+	background:#00FDFD;
+	background:-webkit-radial-gradient( #E17100 20%, #FC0 30%, #C6E804 50%);
+	background:-o-radial-gradient( #E17100 20%, #FC0 30%, #C6E804 50%);
+	background:-moz-radial-gradient( #E17100 20%, #FC0 30%, #C6E804 50%);
+	background:radial-gradient( #E17100 20%, #FC0 30%, #C6E804 50%);
+}
